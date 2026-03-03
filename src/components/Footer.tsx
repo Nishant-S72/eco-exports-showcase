@@ -7,6 +7,7 @@ const Footer = () => {
             <h4 className="font-semibold mb-2 text-primary-foreground">Contact</h4>
             <p className="opacity-80">Email: nishant.sangwan@inmountglobal.com</p>
             <p className="opacity-80">Phone: +91 99115 93517</p>
+            <p className="opacity-80">Address: 4477, Pahari Dhiraj, Sadar Bazaar, Delhi - 110006</p>
           </div>
           <div>
             <h4 className="font-semibold mb-2 text-primary-foreground">Notice</h4>
@@ -15,8 +16,9 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold mb-2 text-primary-foreground">About</h4>
             <p className="opacity-80">
-              Indian exporter of eco-friendly Areca and Bagasse tableware for
-              international buyers.
+              India-based export partner for eco-friendly Areca and Bagasse
+              tableware, built for disciplined bulk supply to international
+              buyers.
             </p>
           </div>
         </div>

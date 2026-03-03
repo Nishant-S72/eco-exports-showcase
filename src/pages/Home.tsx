@@ -78,7 +78,7 @@ const Home = () => {
               <p className="text-muted-foreground leading-relaxed mb-4">
                 We handle container-level shipments with predictable lead times,
                 backed by a stable sourcing ecosystem. Our infrastructure is built
-                for bulk order handling — not sample-level transactions.
+                for bulk order handling, not sample-level transactions.
               </p>
               <p className="text-muted-foreground leading-relaxed">
                 Whether you need a single container or recurring monthly shipments,
@@ -101,7 +101,7 @@ const Home = () => {
                 in building long-term partnerships through consistent execution.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                Our buyers return because they know what to expect — clear timelines,
+                Our buyers return because they know what to expect: clear timelines,
                 accurate documentation, and shipments that arrive as promised.
               </p>
             </div>

@@ -25,6 +25,13 @@ const Contact = () => {
             </a>
           </div>
 
+          <div>
+            <p className="font-medium mb-1">Address</p>
+            <p className="text-muted-foreground">
+              4477, Pahari Dhiraj, Sadar Bazaar, Delhi - 110006
+            </p>
+          </div>
+
           <p className="text-muted-foreground pt-4 border-t border-border">
             Bulk and institutional enquiries only.
           </p>
