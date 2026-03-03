@@ -76,6 +76,17 @@ const Products = () => {
             </div>
           </div>
         </div>
+
+        <section className="mt-16">
+          <div className="border border-border rounded p-6 bg-section-alt">
+            <h2 className="text-xl font-bold mb-3">Certification &amp; Documentation</h2>
+            <p className="text-muted-foreground leading-relaxed">
+              Products are sourced through a vetted production network. Relevant
+              certifications and quality documentation are available upon request
+              based on buyer requirements.
+            </p>
+          </div>
+        </section>
       </div>
     </div>
   );
