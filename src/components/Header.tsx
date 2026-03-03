@@ -4,9 +4,8 @@ import { Menu, X } from "lucide-react";
 
 const navItems = [
   { label: "Home", path: "/" },
+  { label: "Why Us", path: "/why-us" },
   { label: "Products", path: "/products" },
-  { label: "About Us", path: "/about" },
-  { label: "Certifications", path: "/certifications" },
   { label: "Contact", path: "/contact" },
 ];
 
@@ -26,7 +25,6 @@ const Header = () => {
             />
           </Link>
 
-          {/* Desktop nav */}
           <nav className="hidden md:flex items-center gap-8">
             {navItems.map((item) => (
               <Link
@@ -43,7 +41,6 @@ const Header = () => {
             ))}
           </nav>
 
-          {/* Mobile toggle */}
           <button
             className="md:hidden p-2 text-foreground"
             onClick={() => setMobileOpen(!mobileOpen)}
@@ -53,7 +50,6 @@ const Header = () => {
           </button>
         </div>
 
-        {/* Mobile nav */}
         {mobileOpen && (
           <nav className="md:hidden pb-4 border-t border-border pt-4 flex flex-col gap-3">
             {navItems.map((item) => (

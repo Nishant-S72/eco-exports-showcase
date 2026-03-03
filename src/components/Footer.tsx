@@ -5,20 +5,23 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-sm">
           <div>
             <h4 className="font-semibold mb-2 text-primary-foreground">Contact</h4>
-            <p className="opacity-80">Email: [EMAIL_ADDRESS]</p>
-            <p className="opacity-80">Phone/WhatsApp: [PHONE_NUMBER]</p>
-          </div>
-          <div>
-            <h4 className="font-semibold mb-2 text-primary-foreground">Address</h4>
-            <p className="opacity-80">[REGISTERED_ADDRESS]</p>
+            <p className="opacity-80">Email: nishant.sangwan@inmountglobal.com</p>
+            <p className="opacity-80">Phone: +91 99115 93517</p>
           </div>
           <div>
             <h4 className="font-semibold mb-2 text-primary-foreground">Notice</h4>
             <p className="opacity-80">Bulk Orders Only | B2B Enquiries</p>
           </div>
+          <div>
+            <h4 className="font-semibold mb-2 text-primary-foreground">About</h4>
+            <p className="opacity-80">
+              Indian exporter of eco-friendly Areca and Bagasse tableware for
+              international buyers.
+            </p>
+          </div>
         </div>
         <div className="border-t border-primary-foreground/20 mt-8 pt-6 text-center text-xs opacity-60">
-          © {new Date().getFullYear()} [COMPANY_NAME]. All rights reserved.
+          © {new Date().getFullYear()} Inmount Global. All rights reserved.
         </div>
       </div>
     </footer>
