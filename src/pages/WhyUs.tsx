@@ -1,8 +1,8 @@
 const sections = [
   {
-    title: "Execution Over Promises",
+    title: "Defined Workflow and Lead Time Discipline",
     content:
-      "We focus on disciplined processes and shipment reliability. Every order follows a structured workflow from confirmation to dispatch, with clear milestones and accountability at each stage. Our track record is built on what we deliver, not what we promise.",
+      "Each order moves through a defined workflow from requirement confirmation to dispatch planning. Milestones, timelines, and ownership are set upfront to support predictable execution.",
   },
   {
     title: "Structured Supply Network",
@@ -20,9 +20,9 @@ const sections = [
       "We handle export documentation, port coordination, and container consolidation as part of our standard process. Clear communication with buyers ensures there are no surprises, from proforma invoice to bill of lading.",
   },
   {
-    title: "Long-Term Orientation",
+    title: "Container Handling and Documentation Workflow",
     content:
-      "We position ourselves as a dependable partner focused on repeat business, not one-off transactions. Our pricing, communication, and service levels are designed for buyers who value stability and consistency in their supply chain.",
+      "Container planning, pre-shipment checks, and export documentation are handled through a centralized workflow. This structure supports buyers who require reliable process control and clarity at every stage.",
   },
 ];
 
@@ -57,6 +57,16 @@ const WhyUs = () => {
             </div>
           ))}
         </div>
+
+        <section className="mt-14 pt-10 border-t border-border">
+          <h2 className="text-2xl font-bold mb-3">Current Operational Stage</h2>
+          <p className="text-muted-foreground leading-relaxed max-w-4xl">
+            We are actively building long-term container programs with selected
+            international distributors seeking a disciplined sourcing partner from
+            India. Our focus is establishing recurring supply frameworks built on
+            reliability and documentation accuracy.
+          </p>
+        </section>
 
         <section className="mt-14 pt-10 border-t border-border">
           <h2 className="text-2xl font-bold mb-3">Compliance &amp; Documentation Support</h2>
