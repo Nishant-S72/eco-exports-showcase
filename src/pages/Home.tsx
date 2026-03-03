@@ -1,5 +1,16 @@
 import { Link } from "react-router-dom";
 
+const processFlowSteps = [
+  "Inquiry",
+  "Specification Confirmation",
+  "Proforma Invoice",
+  "Production Coordination",
+  "Quality Inspection",
+  "Container Stuffing",
+  "Bill of Lading",
+  "Dispatch",
+];
+
 const Home = () => {
   return (
     <div>
@@ -42,9 +53,9 @@ const Home = () => {
               <h2 className="text-2xl font-bold mb-4">Operational Strength</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 Our coordinated production network ensures structured quality checks
-                and clear dispatch timelines. With years of experience working with
-                overseas buyers, we understand the importance of predictability in
-                every shipment.
+                and clear dispatch timelines. Our model is designed to deliver
+                predictable execution through defined control points from order
+                planning to dispatch readiness.
               </p>
               <p className="text-muted-foreground leading-relaxed">
                 From raw material sourcing to final packaging, every stage follows
@@ -81,9 +92,62 @@ const Home = () => {
                 for bulk order handling, not sample-level transactions.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                Whether you need a single container or recurring monthly shipments,
-                our supply chain scales with your demand.
+                Whether you need one container or a structured repeat program,
+                our coordination model scales with your sourcing requirements.
               </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-16">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-2xl font-bold mb-6">Operating Model</h2>
+          <div className="border border-border rounded p-6">
+            <ul className="list-disc pl-5 space-y-3 text-muted-foreground leading-relaxed">
+              <li>We operate as an export coordination partner based in India.</li>
+              <li>Production is handled through vetted manufacturing units.</li>
+              <li>We oversee structured quality inspection prior to dispatch.</li>
+              <li>
+                Export documentation, container coordination, and compliance are
+                managed centrally.
+              </li>
+              <li>Buyers work with a single accountable point of contact.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-section-alt py-16">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-2xl font-bold mb-6">Container Program Structure</h2>
+          <div className="border border-border rounded p-6 bg-background">
+            <ul className="list-disc pl-5 space-y-3 text-muted-foreground leading-relaxed">
+              <li>Designed for 20ft and 40 HQ container loads</li>
+              <li>Standard lead times defined at order confirmation</li>
+              <li>Pre-shipment inspection coordination available</li>
+              <li>Documentation prepared before vessel cutoff</li>
+              <li>Port handling via [MUNDRA / NHAVA SHEVA]</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-16">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-2xl font-bold mb-6">Process Flow</h2>
+          <div className="border border-border rounded p-5 overflow-x-auto">
+            <div className="flex items-center gap-3 min-w-max">
+              {processFlowSteps.map((step, index) => (
+                <div key={step} className="flex items-center gap-3">
+                  <span className="text-sm font-medium text-foreground whitespace-nowrap">
+                    {step}
+                  </span>
+                  {index < processFlowSteps.length - 1 && (
+                    <span className="text-muted-foreground">→</span>
+                  )}
+                </div>
+              ))}
             </div>
           </div>
         </div>
@@ -101,8 +165,8 @@ const Home = () => {
                 in building long-term partnerships through consistent execution.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                Our buyers return because they know what to expect: clear timelines,
-                accurate documentation, and shipments that arrive as promised.
+                Our systems are designed for predictable repeat supply built on
+                structured execution and documentation discipline.
               </p>
             </div>
             <div>
