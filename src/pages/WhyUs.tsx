@@ -26,6 +26,17 @@ const sections = [
   },
 ];
 
+const workflowSteps = [
+  "Inquiry",
+  "Specification Confirmation",
+  "Proforma Invoice",
+  "Production Coordination",
+  "Quality Inspection",
+  "Container Stuffing",
+  "Bill of Lading",
+  "Dispatch",
+];
+
 const WhyUs = () => {
   return (
     <div className="py-16">
@@ -41,6 +52,43 @@ const WhyUs = () => {
             checks and dispatch coordination.
           </p>
         </div>
+
+        <section className="mt-16 pt-10 border-t border-border">
+          <h2 className="text-2xl font-bold mb-4">Export Capability Overview</h2>
+          <ul className="list-disc pl-5 space-y-3 text-muted-foreground leading-relaxed">
+            <li>Structured coordination through vetted production units</li>
+            <li>Defined order confirmation and dispatch workflow</li>
+            <li>Quality inspection prior to shipment</li>
+            <li>
+              Export documentation support (Proforma Invoice, Packing List, Bill
+              of Lading, Certificate of Origin)
+            </li>
+            <li>Third-party inspection coordination available upon request</li>
+            <li>Port handling alignment based on shipment requirement</li>
+          </ul>
+          <p className="text-muted-foreground leading-relaxed mt-5">
+            Built to support repeat container programs with disciplined execution
+            and documentation accuracy.
+          </p>
+        </section>
+
+        <section className="mt-16 pt-10 border-t border-border">
+          <h2 className="text-2xl font-bold mb-4">Order Workflow</h2>
+          <div className="border border-border rounded p-5 overflow-x-auto">
+            <div className="flex items-center gap-3 min-w-max">
+              {workflowSteps.map((step, index) => (
+                <div key={step} className="flex items-center gap-3">
+                  <span className="text-sm font-medium text-foreground whitespace-nowrap">
+                    {step}
+                  </span>
+                  {index < workflowSteps.length - 1 && (
+                    <span className="text-muted-foreground">→</span>
+                  )}
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
 
         <div className="space-y-12">
           {sections.map((section, index) => (

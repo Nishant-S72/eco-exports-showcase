@@ -123,7 +123,7 @@ const Home = () => {
           <h2 className="text-2xl font-bold mb-6">Container Program Structure</h2>
           <div className="border border-border rounded p-6 bg-background">
             <ul className="list-disc pl-5 space-y-3 text-muted-foreground leading-relaxed">
-              <li>Designed for 20ft and 40 HQ container loads</li>
+              <li>Designed for full-container load programs</li>
               <li>Standard lead times defined at order confirmation</li>
               <li>Pre-shipment inspection coordination available</li>
               <li>Documentation prepared before vessel cutoff</li>
@@ -161,8 +161,7 @@ const Home = () => {
               <h2 className="text-2xl font-bold mb-4">Reliable Execution</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 Transparent communication, documentation discipline, and port
-                coordination are the foundation of every order we fulfil. We believe
-                in building long-term partnerships through consistent execution.
+                coordination are the foundation of every order we fulfil.
               </p>
               <p className="text-muted-foreground leading-relaxed">
                 Our systems are designed for predictable repeat supply built on
