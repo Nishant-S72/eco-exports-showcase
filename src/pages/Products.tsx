@@ -122,6 +122,48 @@ const Products = () => {
         </section>
 
         <section className="mt-16">
+          <h2 className="text-2xl font-bold mb-4">Packaging &amp; Commercial Formats</h2>
+          <p className="text-muted-foreground leading-relaxed mb-6 max-w-4xl">
+            Packaging formats are structured to support bulk export handling,
+            distributor requirements, and private label programs.
+          </p>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="border border-border rounded p-5">
+              <h3 className="text-lg font-semibold mb-3">
+                Areca &amp; Bagasse Packaging Options
+              </h3>
+              <ul className="list-disc pl-5 space-y-2 text-muted-foreground">
+                <li>Bulk loose packing for container-level distribution</li>
+                <li>Shrink-wrapped sleeves for institutional buyers</li>
+                <li>Retail-ready packs with barcode integration</li>
+                <li>Private label printing and branding support</li>
+                <li>Master carton packing for export handling</li>
+                <li>Palletized dispatch coordination (if required)</li>
+              </ul>
+            </div>
+
+            <div className="border border-border rounded p-5">
+              <h3 className="text-lg font-semibold mb-3">
+                Bulk Spice Packaging Options
+              </h3>
+              <ul className="list-disc pl-5 space-y-2 text-muted-foreground">
+                <li>PP woven bags for bulk export</li>
+                <li>Multi-layer paper bags with inner lining</li>
+                <li>Carton-packed inner poly packaging</li>
+                <li>Custom labeling support for importers</li>
+                <li>Private label blending and packing (where applicable)</li>
+              </ul>
+            </div>
+          </div>
+
+          <p className="text-muted-foreground leading-relaxed mt-6">
+            Final packaging configuration is aligned with buyer specifications
+            and destination market requirements.
+          </p>
+        </section>
+
+        <section className="mt-16">
           <div className="border border-border rounded p-6 bg-section-alt">
             <h2 className="text-xl font-bold mb-3">Certification &amp; Documentation</h2>
             <p className="text-muted-foreground leading-relaxed">
