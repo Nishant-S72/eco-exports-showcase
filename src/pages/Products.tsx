@@ -14,7 +14,7 @@ const Products = () => {
               <p className="text-muted-foreground leading-relaxed mb-4">
                 Made from naturally fallen areca palm leaves, our plates are
                 fully compostable and chemical-free. They offer natural
-                durability suitable for food service operations — from catering
+                durability suitable for food service operations, from catering
                 to retail distribution.
               </p>
               <p className="text-muted-foreground leading-relaxed">
@@ -53,7 +53,7 @@ const Products = () => {
               </p>
               <p className="text-muted-foreground leading-relaxed">
                 Available in a range of standard formats for plates, bowls, and
-                compartment trays — designed for high-volume food service
+                compartment trays, designed for high-volume food service
                 environments.
               </p>
             </div>

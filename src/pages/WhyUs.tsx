@@ -2,7 +2,7 @@ const sections = [
   {
     title: "Execution Over Promises",
     content:
-      "We focus on disciplined processes and shipment reliability. Every order follows a structured workflow — from confirmation to dispatch — with clear milestones and accountability at each stage. Our track record is built on what we deliver, not what we promise.",
+      "We focus on disciplined processes and shipment reliability. Every order follows a structured workflow from confirmation to dispatch, with clear milestones and accountability at each stage. Our track record is built on what we deliver, not what we promise.",
   },
   {
     title: "Structured Supply Network",
@@ -12,12 +12,12 @@ const sections = [
   {
     title: "Quality Assurance",
     content:
-      "Standardized quality checks are performed before every shipment. We inspect for consistency in dimensions, finish, and packaging integrity. There are no exaggerated claims — just reliable, repeatable output that meets export standards.",
+      "Standardized quality checks are performed before every shipment. We inspect for consistency in dimensions, finish, and packaging integrity. There are no exaggerated claims, just reliable, repeatable output that meets export standards.",
   },
   {
     title: "International Trade Readiness",
     content:
-      "We handle export documentation, port coordination, and container consolidation as part of our standard process. Clear communication with buyers ensures there are no surprises — from proforma invoice to bill of lading.",
+      "We handle export documentation, port coordination, and container consolidation as part of our standard process. Clear communication with buyers ensures there are no surprises, from proforma invoice to bill of lading.",
   },
   {
     title: "Long-Term Orientation",
