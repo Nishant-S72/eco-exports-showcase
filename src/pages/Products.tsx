@@ -12,6 +12,10 @@ const Products = () => {
           <h2 className="text-2xl font-bold mb-6 border-b border-border pb-3">
             Areca Tableware
           </h2>
+          <p className="text-muted-foreground leading-relaxed mb-6">
+            Naturally pressed, chemical-free leafware formats with structural
+            rigidity suitable for hot food applications.
+          </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="border border-border rounded p-5">
               <h3 className="text-lg font-semibold mb-3">Round Plates</h3>
@@ -68,6 +72,10 @@ const Products = () => {
           <h2 className="text-2xl font-bold mb-6 border-b border-border pb-3">
             Bagasse Tableware
           </h2>
+          <p className="text-muted-foreground leading-relaxed mb-6">
+            Molded fiber formats designed for institutional food service
+            operations, compatible with hot and cold applications.
+          </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="border border-border rounded p-5">
               <h3 className="text-lg font-semibold mb-3">Plates</h3>
@@ -117,17 +125,26 @@ const Products = () => {
           <div className="border border-border rounded p-6 bg-section-alt">
             <h2 className="text-xl font-bold mb-3">Certification &amp; Documentation</h2>
             <p className="text-muted-foreground leading-relaxed">
-              Products are sourced through a vetted production network. Relevant
-              certifications and quality documentation are available upon request
-              based on buyer requirements.
+              Detailed specifications, packaging formats, and certification
+              documentation are available upon request based on buyer
+              requirements.
             </p>
           </div>
         </section>
 
-        <p className="text-muted-foreground leading-relaxed mt-8">
-          Detailed specifications, packaging formats, and certification
-          documentation can be shared upon request based on buyer requirements.
-        </p>
+        <section className="mt-16">
+          <h2 className="text-2xl font-bold mb-4">Typical Applications</h2>
+          <p className="text-muted-foreground leading-relaxed mb-4">
+            Formats are commonly supplied to the following commercial segments:
+          </p>
+          <ul className="list-disc pl-5 space-y-2 text-muted-foreground">
+            <li>Food service distributors</li>
+            <li>Catering and horeca suppliers</li>
+            <li>Eco-focused retail brands</li>
+            <li>Institutional procurement programs</li>
+            <li>Private label packaging partners</li>
+          </ul>
+        </section>
       </div>
     </div>
   );
