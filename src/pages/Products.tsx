@@ -121,6 +121,148 @@ const Products = () => {
           </p>
         </section>
 
+        <section className="mb-16">
+          <h2 className="text-2xl font-bold mb-6 border-b border-border pb-3">
+            Bulk Spices - Whole &amp; Powdered
+          </h2>
+          <p className="text-muted-foreground leading-relaxed mb-6">
+            Export-oriented supply of whole and ground spices sourced through
+            vetted processing units with quality inspection and documentation
+            support.
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="border border-border rounded p-5">
+              <h3 className="text-lg font-semibold mb-3">Pepper</h3>
+              <ul className="list-disc pl-5 space-y-2 text-muted-foreground">
+                <li>Black pepper - whole</li>
+                <li>Black pepper - crushed or ground</li>
+              </ul>
+            </div>
+
+            <div className="border border-border rounded p-5">
+              <h3 className="text-lg font-semibold mb-3">Chilli</h3>
+              <ul className="list-disc pl-5 space-y-2 text-muted-foreground">
+                <li>Dried red chillies - whole</li>
+                <li>Chilli powder</li>
+                <li>Crushed chilli</li>
+              </ul>
+            </div>
+
+            <div className="border border-border rounded p-5">
+              <h3 className="text-lg font-semibold mb-3">Coriander</h3>
+              <ul className="list-disc pl-5 space-y-2 text-muted-foreground">
+                <li>Coriander seeds - whole</li>
+                <li>Coriander powder</li>
+              </ul>
+            </div>
+
+            <div className="border border-border rounded p-5">
+              <h3 className="text-lg font-semibold mb-3">Cumin</h3>
+              <ul className="list-disc pl-5 space-y-2 text-muted-foreground">
+                <li>Cumin seeds - whole</li>
+                <li>Cumin powder</li>
+              </ul>
+            </div>
+
+            <div className="border border-border rounded p-5">
+              <h3 className="text-lg font-semibold mb-3">Fennel</h3>
+              <ul className="list-disc pl-5 space-y-2 text-muted-foreground">
+                <li>Fennel seeds - whole</li>
+                <li>Fennel powder</li>
+              </ul>
+            </div>
+
+            <div className="border border-border rounded p-5">
+              <h3 className="text-lg font-semibold mb-3">Turmeric</h3>
+              <ul className="list-disc pl-5 space-y-2 text-muted-foreground">
+                <li>Turmeric fingers - whole</li>
+                <li>Turmeric powder</li>
+              </ul>
+            </div>
+
+            <div className="border border-border rounded p-5">
+              <h3 className="text-lg font-semibold mb-3">Cardamom</h3>
+              <ul className="list-disc pl-5 space-y-2 text-muted-foreground">
+                <li>Small cardamom - whole</li>
+                <li>Cardamom powder</li>
+              </ul>
+            </div>
+
+            <div className="border border-border rounded p-5">
+              <h3 className="text-lg font-semibold mb-3">Cloves</h3>
+              <ul className="list-disc pl-5 space-y-2 text-muted-foreground">
+                <li>Cloves - whole</li>
+                <li>Cloves - ground</li>
+              </ul>
+            </div>
+
+            <div className="border border-border rounded p-5">
+              <h3 className="text-lg font-semibold mb-3">Cinnamon / Cassia</h3>
+              <ul className="list-disc pl-5 space-y-2 text-muted-foreground">
+                <li>Cinnamon - whole</li>
+                <li>Cinnamon - ground</li>
+                <li>Cassia - whole</li>
+              </ul>
+            </div>
+
+            <div className="border border-border rounded p-5 lg:col-span-3">
+              <h3 className="text-lg font-semibold mb-3">Mixed Spice Blends</h3>
+              <ul className="list-disc pl-5 space-y-2 text-muted-foreground">
+                <li>Garam masala</li>
+                <li>Curry powder</li>
+                <li>Custom spice blends</li>
+              </ul>
+            </div>
+          </div>
+          <p className="text-muted-foreground leading-relaxed mt-6">
+            Bulk packaging formats, quality specifications, and test
+            documentation can be shared upon request based on destination market
+            requirements.
+          </p>
+        </section>
+
+        <section className="mt-16">
+          <h2 className="text-2xl font-bold mb-4">Packaging &amp; Commercial Formats</h2>
+          <p className="text-muted-foreground leading-relaxed mb-6 max-w-4xl">
+            Packaging formats are structured to support bulk export handling,
+            distributor requirements, and private label programs.
+          </p>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="border border-border rounded p-5">
+              <h3 className="text-lg font-semibold mb-3">
+                Areca &amp; Bagasse Packaging Options
+              </h3>
+              <ul className="list-disc pl-5 space-y-2 text-muted-foreground">
+                <li>Bulk loose packing for container-level distribution</li>
+                <li>Shrink-wrapped sleeves for institutional buyers</li>
+                <li>Retail-ready packs with barcode integration</li>
+                <li>Private label printing and branding support</li>
+                <li>Master carton packing for export handling</li>
+                <li>Palletized dispatch coordination (if required)</li>
+              </ul>
+            </div>
+
+            <div className="border border-border rounded p-5">
+              <h3 className="text-lg font-semibold mb-3">
+                Bulk Spice Packaging Options
+              </h3>
+              <ul className="list-disc pl-5 space-y-2 text-muted-foreground">
+                <li>PP woven bags for bulk export</li>
+                <li>Multi-layer paper bags with inner lining</li>
+                <li>Carton-packed inner poly packaging</li>
+                <li>Custom labeling support for importers</li>
+                <li>Private label blending and packing (where applicable)</li>
+              </ul>
+            </div>
+          </div>
+
+          <p className="text-muted-foreground leading-relaxed mt-6">
+            Final packaging configuration is aligned with buyer specifications
+            and destination market requirements.
+          </p>
+        </section>
+
         <section className="mt-16">
           <div className="border border-border rounded p-6 bg-section-alt">
             <h2 className="text-xl font-bold mb-3">Certification &amp; Documentation</h2>
