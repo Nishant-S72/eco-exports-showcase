@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Products = () => {
   return (
     <div className="py-16">
@@ -130,6 +132,10 @@ const Products = () => {
             vetted processing units with quality inspection and documentation
             support.
           </p>
+          <p className="text-muted-foreground leading-relaxed mb-6">
+            Quality parameters such as moisture levels, cleaning standards, and
+            destination compliance are aligned as per buyer requirement.
+          </p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="border border-border rounded p-5">
               <h3 className="text-lg font-semibold mb-3">Pepper</h3>
@@ -236,7 +242,7 @@ const Products = () => {
               <ul className="list-disc pl-5 space-y-2 text-muted-foreground">
                 <li>Bulk loose packing for container-level distribution</li>
                 <li>Shrink-wrapped sleeves for institutional buyers</li>
-                <li>Retail-ready packs with barcode integration</li>
+                <li>Standardized sleeve packs with barcode integration</li>
                 <li>Private label printing and branding support</li>
                 <li>Master carton packing for export handling</li>
                 <li>Palletized dispatch coordination (if required)</li>
@@ -264,12 +270,27 @@ const Products = () => {
         </section>
 
         <section className="mt-16">
+          <h2 className="text-2xl font-bold mb-4">Typical Engagement Structure</h2>
+          <ul className="list-disc pl-5 space-y-2 text-muted-foreground">
+            <li>Full container load supply model</li>
+            <li>Lead times defined at order confirmation</li>
+            <li>Pre-shipment inspection supported</li>
+            <li>Documentation issued prior to vessel departure</li>
+            <li>Private label coordination available where applicable</li>
+          </ul>
+        </section>
+
+        <section className="mt-16">
           <div className="border border-border rounded p-6 bg-section-alt">
             <h2 className="text-xl font-bold mb-3">Certification &amp; Documentation</h2>
             <p className="text-muted-foreground leading-relaxed">
               Detailed specifications, packaging formats, and certification
               documentation are available upon request based on buyer
               requirements.
+            </p>
+            <p className="text-muted-foreground leading-relaxed mt-4">
+              Documentation and packaging configurations are aligned based on
+              destination market regulatory requirements.
             </p>
           </div>
         </section>
@@ -282,10 +303,27 @@ const Products = () => {
           <ul className="list-disc pl-5 space-y-2 text-muted-foreground">
             <li>Food service distributors</li>
             <li>Catering and horeca suppliers</li>
-            <li>Eco-focused retail brands</li>
+            <li>Import and wholesale distribution channels</li>
             <li>Institutional procurement programs</li>
             <li>Private label packaging partners</li>
           </ul>
+        </section>
+
+        <section className="mt-16">
+          <div className="border border-border rounded p-6 bg-section-alt">
+            <h2 className="text-2xl font-bold mb-3">Discuss Your Requirement</h2>
+            <p className="text-muted-foreground leading-relaxed mb-5 max-w-4xl">
+              Share your product format, volume expectation, and destination
+              details. We respond with structured supply alignment and
+              documentation clarity.
+            </p>
+            <Link
+              to="/contact"
+              className="inline-block bg-primary text-primary-foreground px-8 py-3 text-sm font-semibold rounded hover:opacity-90"
+            >
+              Request Commercial Discussion
+            </Link>
+          </div>
         </section>
       </div>
     </div>
