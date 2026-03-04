@@ -6,8 +6,9 @@ const Products = () => {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <h1 className="text-3xl font-bold mb-12">Products</h1>
         <p className="text-muted-foreground leading-relaxed mb-12 max-w-4xl">
-          Formats listed represent standard export models. Custom molds and
-          private labeling support available for container-level buyers.
+          Formats listed represent standard export models for tableware and
+          spice commodities. Custom molds, private labeling, and commodity
+          specifications are aligned for container-level buyers.
         </p>
 
         <section className="mb-16">

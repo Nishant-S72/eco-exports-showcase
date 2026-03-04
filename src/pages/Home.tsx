@@ -9,12 +9,11 @@ const Home = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight mb-6">
-                Your Dependable Supply Partner for Eco-Friendly Tableware from India
+                Structured Export Coordination for Tableware and Bulk Spices from India
               </h1>
               <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-                Consistent supply. Operational discipline. Timely shipment execution.
-                Scalable bulk capacity built for international buyers who need
-                a sourcing partner they can count on.
+                Consistent supply alignment, documented workflows, and timely
+                shipment execution for tableware and spice programs.
               </p>
               <Link
                 to="/contact"
@@ -41,14 +40,13 @@ const Home = () => {
             <div>
               <h2 className="text-2xl font-bold mb-4">Operational Strength</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Our coordinated production network ensures structured quality checks
-                and clear dispatch timelines. Our model is designed to deliver
-                predictable execution through defined control points from order
-                planning to dispatch readiness.
+                Our coordinated production network ensures structured quality
+                checks and clear dispatch timelines. Control points are defined
+                from order planning to dispatch readiness.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                From raw material sourcing to final packaging, every stage follows
-                a disciplined process designed for consistency and accountability.
+                For spice programs, moisture profile, cleaning standards, and
+                buyer-defined quality parameters are aligned prior to shipment.
               </p>
             </div>
             <div>
@@ -76,13 +74,12 @@ const Home = () => {
             <div className="order-1 md:order-2">
               <h2 className="text-2xl font-bold mb-4">Scalable Supply</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                We handle container-level shipments with predictable lead times,
-                backed by a stable sourcing ecosystem. Our infrastructure is built
-                for bulk order handling, not sample-level transactions.
+                We handle full-container supply programs with predictable lead
+                times, supported by a stable sourcing and processing ecosystem.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                Whether you need one container or a structured repeat program,
-                our coordination model scales with your sourcing requirements.
+                Delivery planning is aligned with buyer format requirements,
+                documentation checkpoints, and dispatch schedules.
               </p>
             </div>
           </div>
