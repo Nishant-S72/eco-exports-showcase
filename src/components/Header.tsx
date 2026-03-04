@@ -23,7 +23,7 @@ const Header = () => {
               alt="Company Logo"
               className="h-14 w-auto"
             />
-            <div className="hidden sm:block text-[11px] sm:text-xs leading-tight text-muted-foreground">
+            <div className="block text-[10px] sm:text-xs leading-tight text-muted-foreground">
               <p>MSME: UDYAM-DL-04-0045434</p>
               <p>GST: 07AAHCI6249P1ZV</p>
               <p>IEC: AAHCI6249P</p>
