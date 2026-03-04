@@ -1,16 +1,5 @@
 import { Link } from "react-router-dom";
 
-const processFlowSteps = [
-  "Inquiry",
-  "Specification Confirmation",
-  "Proforma Invoice",
-  "Production Coordination",
-  "Quality Inspection",
-  "Container Stuffing",
-  "Bill of Lading",
-  "Dispatch",
-];
-
 const Home = () => {
   return (
     <div>
@@ -95,59 +84,6 @@ const Home = () => {
                 Whether you need one container or a structured repeat program,
                 our coordination model scales with your sourcing requirements.
               </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="py-16">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-bold mb-6">Operating Model</h2>
-          <div className="border border-border rounded p-6">
-            <ul className="list-disc pl-5 space-y-3 text-muted-foreground leading-relaxed">
-              <li>We operate as an export coordination partner based in India.</li>
-              <li>Production is handled through vetted manufacturing units.</li>
-              <li>We oversee structured quality inspection prior to dispatch.</li>
-              <li>
-                Export documentation, container coordination, and compliance are
-                managed centrally.
-              </li>
-              <li>Buyers work with a single accountable point of contact.</li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
-      <section className="bg-section-alt py-16">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-bold mb-6">Container Program Structure</h2>
-          <div className="border border-border rounded p-6 bg-background">
-            <ul className="list-disc pl-5 space-y-3 text-muted-foreground leading-relaxed">
-              <li>Designed for full-container load programs</li>
-              <li>Standard lead times defined at order confirmation</li>
-              <li>Pre-shipment inspection coordination available</li>
-              <li>Documentation prepared before vessel cutoff</li>
-              <li>Port handling via [MUNDRA / NHAVA SHEVA]</li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
-      <section className="py-16">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-bold mb-6">Process Flow</h2>
-          <div className="border border-border rounded p-5 overflow-x-auto">
-            <div className="flex items-center gap-3 min-w-max">
-              {processFlowSteps.map((step, index) => (
-                <div key={step} className="flex items-center gap-3">
-                  <span className="text-sm font-medium text-foreground whitespace-nowrap">
-                    {step}
-                  </span>
-                  {index < processFlowSteps.length - 1 && (
-                    <span className="text-muted-foreground">→</span>
-                  )}
-                </div>
-              ))}
             </div>
           </div>
         </div>

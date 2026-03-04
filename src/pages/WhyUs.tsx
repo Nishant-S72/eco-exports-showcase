@@ -14,16 +14,6 @@ const sections = [
     content:
       "Standardized quality checks are performed before every shipment. We inspect for consistency in dimensions, finish, and packaging integrity. There are no exaggerated claims, just reliable, repeatable output that meets export standards.",
   },
-  {
-    title: "International Trade Readiness",
-    content:
-      "We handle export documentation, port coordination, and container consolidation as part of our standard process. Clear communication with buyers ensures there are no surprises, from proforma invoice to bill of lading.",
-  },
-  {
-    title: "Container Handling and Documentation Workflow",
-    content:
-      "Container planning, pre-shipment checks, and export documentation are handled through a centralized workflow. This structure supports buyers who require reliable process control and clarity at every stage.",
-  },
 ];
 
 const workflowSteps = [
