@@ -16,8 +16,9 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold mb-2 text-primary-foreground">About</h4>
             <p className="opacity-80">
-              India-based export coordination partner for tableware and bulk
-              spices, built around disciplined execution and documentation.
+              India-based export partner for eco-friendly Areca and Bagasse
+              tableware, built for disciplined bulk supply to international
+              buyers.
             </p>
           </div>
         </div>

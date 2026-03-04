@@ -12,7 +12,7 @@ const sections = [
   {
     title: "Quality Assurance",
     content:
-      "Standardized quality checks are performed before every shipment. For spice categories, moisture profile, cleaning standards, and buyer-defined quality parameters are aligned as per specification.",
+      "Standardized quality checks are performed before every shipment. We inspect for consistency in dimensions, finish, and packaging integrity. There are no exaggerated claims, just reliable, repeatable output that meets export standards.",
   },
 ];
 
