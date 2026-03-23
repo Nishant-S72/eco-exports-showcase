@@ -78,7 +78,7 @@ const Home = () => {
           />
           <div className="absolute inset-0 bg-foreground/60" />
         </div>
-        <div className="relative max-w-7xl mx-auto px-6 lg:px-12 py-28 md:py-40">
+        <div className="relative max-w-7xl mx-auto px-6 lg:px-12 py-16 md:py-20">
           <div className="max-w-2xl">
             <h1 className="text-primary-foreground mb-6">
               Global Sourcing from India, Simplified
@@ -107,9 +107,9 @@ const Home = () => {
       </section>
 
       {/* Product Categories */}
-      <section className="py-20 md:py-28">
+      <section className="py-14 md:py-20">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
-          <div className="max-w-xl mb-16">
+          <div className="max-w-xl mb-10">
             <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground mb-3">What We Source</p>
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Product Categories</h2>
             <p className="text-muted-foreground leading-relaxed">
@@ -147,9 +147,9 @@ const Home = () => {
       </section>
 
       {/* Visual Showcase */}
-      <section className="bg-section-alt py-20 md:py-28">
+      <section className="bg-section-alt py-14 md:py-20">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
-          <div className="max-w-xl mb-12">
+          <div className="max-w-xl mb-8">
             <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground mb-3">Visual Showcase</p>
             <h2 className="text-3xl md:text-4xl font-bold">Designed for Modern Living</h2>
           </div>
@@ -169,9 +169,9 @@ const Home = () => {
       </section>
 
       {/* Why Choose Us */}
-      <section className="py-20 md:py-28">
+      <section className="py-14 md:py-20">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
-          <div className="max-w-xl mb-16">
+          <div className="max-w-xl mb-10">
             <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground mb-3">Why Inmount</p>
             <h2 className="text-3xl md:text-4xl font-bold">Built for Buyers Who Value Consistency</h2>
           </div>
@@ -191,9 +191,9 @@ const Home = () => {
       </section>
 
       {/* How It Works */}
-      <section className="bg-section-alt py-20 md:py-28">
+      <section className="bg-section-alt py-14 md:py-20">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
-          <div className="max-w-xl mb-16">
+          <div className="max-w-xl mb-10">
             <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground mb-3">Process</p>
             <h2 className="text-3xl md:text-4xl font-bold">How It Works</h2>
           </div>
@@ -211,9 +211,9 @@ const Home = () => {
       </section>
 
       {/* CTA */}
-      <section className="py-20 md:py-28">
+      <section className="py-14 md:py-20">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
-          <div className="bg-foreground text-primary-foreground rounded-2xl p-12 md:p-20 text-center">
+          <div className="bg-foreground text-primary-foreground rounded-2xl p-10 md:p-14 text-center">
             <h2 className="text-3xl md:text-4xl font-bold mb-4 text-primary-foreground">
               Looking for a Reliable Sourcing Partner from India?
             </h2>

@@ -4,7 +4,7 @@ const Products = () => {
   return (
     <div>
       {/* Hero */}
-      <section className="py-20 md:py-28 bg-section-alt">
+      <section className="py-14 md:py-20 bg-section-alt">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
           <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground mb-3">Product Portfolio</p>
           <h1 className="max-w-2xl mb-6">What We Source</h1>
@@ -16,9 +16,9 @@ const Products = () => {
       </section>
 
       {/* Areca Tableware */}
-      <section className="py-20 md:py-24">
+      <section className="py-14 md:py-16">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
             <div>
               <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground mb-3">Natural & Compostable</p>
               <h2 className="text-3xl font-bold mb-6">Areca Tableware</h2>
@@ -42,9 +42,9 @@ const Products = () => {
       </section>
 
       {/* Bagasse Tableware */}
-      <section className="py-20 md:py-24 bg-section-alt">
+      <section className="py-14 md:py-16 bg-section-alt">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
             <div className="order-2 lg:order-1 grid grid-cols-2 gap-4">
               <img src="/assets/bagasse_plate_1.jpg" alt="Bagasse plates" loading="lazy" className="w-full rounded-lg object-cover aspect-square" />
               <img src="/assets/bagasse_plate_2.jpg" alt="Bagasse bowls" loading="lazy" className="w-full rounded-lg object-cover aspect-square" />
@@ -67,9 +67,9 @@ const Products = () => {
       </section>
 
       {/* Spices */}
-      <section className="py-20 md:py-24">
+      <section className="py-14 md:py-16">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
             <div>
               <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground mb-3">Export-Grade Quality</p>
               <h2 className="text-3xl font-bold mb-6">Premium Spices</h2>
@@ -91,9 +91,9 @@ const Products = () => {
       </section>
 
       {/* Home Textiles */}
-      <section className="py-20 md:py-24 bg-section-alt">
+      <section className="py-14 md:py-16 bg-section-alt">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
             <div className="order-2 lg:order-1 grid grid-cols-2 gap-4">
               <img src="/assets/cushion_covers.jpg" alt="Boho cushion covers" loading="lazy" className="w-full rounded-lg object-cover aspect-square" />
               <img src="/assets/table_runner.jpg" alt="Handwoven table runner" loading="lazy" className="w-full rounded-lg object-cover aspect-square" />
@@ -116,9 +116,9 @@ const Products = () => {
       </section>
 
       {/* Handicrafts */}
-      <section className="py-20 md:py-24">
+      <section className="py-14 md:py-16">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
             <div>
               <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground mb-3">Artisanal & Modern</p>
               <h2 className="text-3xl font-bold mb-6">Handicrafts & Decor</h2>
@@ -141,7 +141,7 @@ const Products = () => {
       </section>
 
       {/* CTA */}
-      <section className="bg-section-alt py-20">
+      <section className="bg-section-alt py-14">
         <div className="max-w-7xl mx-auto px-6 lg:px-12 text-center">
           <h2 className="text-3xl font-bold mb-4">Discuss Your Requirement</h2>
           <p className="text-muted-foreground mb-8 max-w-lg mx-auto leading-relaxed">

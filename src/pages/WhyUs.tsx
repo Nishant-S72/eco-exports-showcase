@@ -44,7 +44,7 @@ const WhyUs = () => {
   return (
     <div>
       {/* Hero */}
-      <section className="py-20 md:py-28 bg-section-alt">
+      <section className="py-14 md:py-20 bg-section-alt">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
           <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground mb-3">Why Inmount Global</p>
           <h1 className="max-w-2xl mb-6">Your Supply Chain Partner in India</h1>
@@ -56,9 +56,9 @@ const WhyUs = () => {
       </section>
 
       {/* Sections */}
-      <section className="py-20 md:py-28">
+      <section className="py-14 md:py-20">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
-          <div className="grid gap-16 max-w-3xl">
+          <div className="grid gap-10 max-w-3xl">
             {sections.map((section, i) => (
               <div key={section.title} className="border-l-2 border-border pl-8">
                 <span className="text-xs uppercase tracking-[0.2em] text-muted-foreground">
@@ -75,9 +75,9 @@ const WhyUs = () => {
       </section>
 
       {/* Capabilities */}
-      <section className="bg-section-alt py-20 md:py-28">
+      <section className="bg-section-alt py-14 md:py-20">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
-          <h2 className="text-3xl font-bold mb-12">Export Capabilities</h2>
+          <h2 className="text-3xl font-bold mb-8">Export Capabilities</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5 max-w-3xl">
             {capabilities.map((cap) => (
               <div key={cap} className="flex items-start gap-3">
@@ -90,7 +90,7 @@ const WhyUs = () => {
       </section>
 
       {/* CTA */}
-      <section className="py-20">
+      <section className="py-14">
         <div className="max-w-7xl mx-auto px-6 lg:px-12 text-center">
           <h2 className="text-3xl font-bold mb-4">Ready to Start?</h2>
           <p className="text-muted-foreground mb-8 max-w-lg mx-auto">
