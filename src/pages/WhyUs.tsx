@@ -1,140 +1,110 @@
+import { Link } from "react-router-dom";
+import { CheckCircle } from "lucide-react";
+
 const sections = [
   {
-    title: "Defined Workflow and Lead Time Discipline",
+    title: "Execution Over Promises",
     content:
-      "Each order moves through a defined workflow from requirement confirmation to dispatch planning. Milestones, timelines, and ownership are set upfront to support predictable execution.",
+      "We operate through disciplined processes and a defined workflow from order confirmation to dispatch. Every milestone has an owner, a timeline, and clear accountability. Our track record is built on shipment reliability, not marketing language.",
   },
   {
     title: "Structured Supply Network",
     content:
-      "Our operations are coordinated across sourcing, quality inspection, packaging, and dispatch. Each function works within defined timelines and quality parameters, ensuring that the final shipment meets the buyer's specifications consistently.",
+      "Our sourcing, quality inspection, packaging, and dispatch functions are coordinated through a structured supply chain. Each stage follows defined quality parameters and timelines, ensuring every shipment meets buyer specifications with consistency.",
   },
   {
     title: "Quality Assurance",
     content:
-      "Standardized quality checks are performed before every shipment. We inspect for consistency in dimensions, finish, and packaging integrity. There are no exaggerated claims, just reliable, repeatable output that meets export standards.",
+      "Standardized quality checks are performed before every shipment. We inspect for consistency in dimensions, finish, and packaging integrity. No exaggerated claims — just reliable, repeatable output that meets export standards.",
+  },
+  {
+    title: "International Trade Readiness",
+    content:
+      "From export documentation (Proforma Invoice, Packing List, Bill of Lading, Certificate of Origin) to port handling and container consolidation — our systems are built for cross-border trade with clear communication at every step.",
+  },
+  {
+    title: "Long-Term Orientation",
+    content:
+      "We focus on building recurring supply frameworks with selected international distributors. Our model is designed for repeat container programs built on reliability, documentation accuracy, and long-term commercial alignment.",
   },
 ];
 
-const workflowSteps = [
-  "Inquiry",
-  "Specification Confirmation",
-  "Proforma Invoice",
-  "Production Coordination",
-  "Quality Inspection",
-  "Container Stuffing",
-  "Bill of Lading",
-  "Dispatch",
+const capabilities = [
+  "Structured coordination through vetted production units",
+  "Defined order confirmation and dispatch workflow",
+  "Quality inspection prior to shipment",
+  "Export documentation support",
+  "Third-party inspection coordination available",
+  "Port handling alignment based on shipment requirement",
+  "Multi-category sourcing from a single partner",
+  "Container consolidation and palletized dispatch",
 ];
 
 const WhyUs = () => {
   return (
-    <div className="py-16">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h1 className="text-3xl font-bold mb-4">Your Supply Chain Partner in India</h1>
-        <p className="text-muted-foreground mb-12 max-w-2xl">
-          We operate with the discipline of a supply chain partner, not a trader.
-          Here is what that means for your business.
-        </p>
-        <div className="mb-12 border border-border rounded p-4 bg-section-alt">
-          <p className="text-sm text-foreground font-medium">
-            We operate through a vetted production network with structured quality
-            checks and dispatch coordination.
+    <div>
+      {/* Hero */}
+      <section className="py-20 md:py-28 bg-section-alt">
+        <div className="max-w-7xl mx-auto px-6 lg:px-12">
+          <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground mb-3">Why Inmount Global</p>
+          <h1 className="max-w-2xl mb-6">Your Supply Chain Partner in India</h1>
+          <p className="text-lg text-muted-foreground max-w-2xl leading-relaxed">
+            We operate with the discipline of a supply chain partner, not a
+            trader. Here is what that means for your business.
           </p>
         </div>
+      </section>
 
-        <section className="mt-16 pt-10 border-t border-border">
-          <h2 className="text-2xl font-bold mb-4">Export Capability Overview</h2>
-          <ul className="list-disc pl-5 space-y-3 text-muted-foreground leading-relaxed">
-            <li>Structured coordination through vetted production units</li>
-            <li>Defined order confirmation and dispatch workflow</li>
-            <li>Quality inspection prior to shipment</li>
-            <li>
-              Export documentation support (Proforma Invoice, Packing List, Bill
-              of Lading, Certificate of Origin)
-            </li>
-            <li>Third-party inspection coordination available upon request</li>
-            <li>Port handling alignment based on shipment requirement</li>
-          </ul>
-          <p className="text-muted-foreground leading-relaxed mt-5">
-            Built to support repeat container programs with disciplined execution
-            and documentation accuracy.
-          </p>
-        </section>
-
-        <section className="mt-16 pt-10 border-t border-border">
-          <h2 className="text-2xl font-bold mb-4">Order Workflow</h2>
-          <div className="border border-border rounded p-5 overflow-x-auto">
-            <div className="flex items-center gap-3 min-w-max">
-              {workflowSteps.map((step, index) => (
-                <div key={step} className="flex items-center gap-3">
-                  <span className="text-sm font-medium text-foreground whitespace-nowrap">
-                    {step}
-                  </span>
-                  {index < workflowSteps.length - 1 && (
-                    <span className="text-muted-foreground">→</span>
-                  )}
-                </div>
-              ))}
-            </div>
+      {/* Sections */}
+      <section className="py-20 md:py-28">
+        <div className="max-w-7xl mx-auto px-6 lg:px-12">
+          <div className="grid gap-16 max-w-3xl">
+            {sections.map((section, i) => (
+              <div key={section.title} className="border-l-2 border-border pl-8">
+                <span className="text-xs uppercase tracking-[0.2em] text-muted-foreground">
+                  0{i + 1}
+                </span>
+                <h2 className="text-2xl font-bold mt-2 mb-4">{section.title}</h2>
+                <p className="text-muted-foreground leading-relaxed">
+                  {section.content}
+                </p>
+              </div>
+            ))}
           </div>
-        </section>
-
-        <div className="space-y-12">
-          {sections.map((section, index) => (
-            <div
-              key={section.title}
-              className={`py-10 px-0 ${
-                index < sections.length - 1 ? "border-b border-border" : ""
-              }`}
-            >
-              <h2 className="text-xl font-bold mb-3">{section.title}</h2>
-              <p className="text-muted-foreground leading-relaxed max-w-3xl">
-                {section.content}
-              </p>
-            </div>
-          ))}
         </div>
+      </section>
 
-        <section className="mt-14 pt-10 border-t border-border">
-          <h2 className="text-2xl font-bold mb-3">Current Operational Stage</h2>
-          <p className="text-muted-foreground leading-relaxed max-w-4xl">
-            We are actively building long-term container programs with selected
-            international distributors seeking a disciplined sourcing partner from
-            India. Our focus is establishing recurring supply frameworks built on
-            reliability and documentation accuracy.
-          </p>
-        </section>
-
-        <section className="mt-14 pt-10 border-t border-border">
-          <h2 className="text-2xl font-bold mb-3">Compliance &amp; Documentation Support</h2>
-          <p className="text-muted-foreground leading-relaxed mb-5 max-w-4xl">
-            Products are sourced through certified manufacturing partners.
-            Relevant certifications and shipment documentation can be shared upon
-            request based on buyer requirements. Our focus is documentation
-            accuracy, shipment readiness, and export compliance capability.
-          </p>
-
-          <p className="font-semibold text-foreground mb-5">
-            Independent third-party inspection can be arranged prior to shipment at
-            buyer&apos;s request.
-          </p>
-
-          <div className="border border-border rounded p-5">
-            <h3 className="text-base font-semibold mb-3">Compliance Support Includes:</h3>
-            <ul className="list-disc pl-5 space-y-2 text-muted-foreground">
-              <li>Food-grade certification from manufacturing partners</li>
-              <li>Compostability or material test reports (where applicable)</li>
-              <li>Third-party inspection available (SGS / Bureau Veritas)</li>
-              <li>Pre-shipment inspection coordination</li>
-              <li>Phytosanitary documentation (if required)</li>
-              <li>Fumigation certificate</li>
-              <li>Certificate of Origin</li>
-              <li>Complete export documentation support</li>
-            </ul>
+      {/* Capabilities */}
+      <section className="bg-section-alt py-20 md:py-28">
+        <div className="max-w-7xl mx-auto px-6 lg:px-12">
+          <h2 className="text-3xl font-bold mb-12">Export Capabilities</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-5 max-w-3xl">
+            {capabilities.map((cap) => (
+              <div key={cap} className="flex items-start gap-3">
+                <CheckCircle size={18} className="text-olive mt-0.5 shrink-0" />
+                <p className="text-sm text-muted-foreground">{cap}</p>
+              </div>
+            ))}
           </div>
-        </section>
-      </div>
+        </div>
+      </section>
+
+      {/* CTA */}
+      <section className="py-20">
+        <div className="max-w-7xl mx-auto px-6 lg:px-12 text-center">
+          <h2 className="text-3xl font-bold mb-4">Ready to Start?</h2>
+          <p className="text-muted-foreground mb-8 max-w-lg mx-auto">
+            Share your sourcing requirements. We'll respond with a structured
+            proposal aligned to your business needs.
+          </p>
+          <Link
+            to="/contact"
+            className="inline-flex items-center justify-center bg-primary text-primary-foreground px-8 py-3.5 text-sm font-semibold rounded-lg hover:bg-primary/90 transition-colors"
+          >
+            Start a Conversation
+          </Link>
+        </div>
+      </section>
     </div>
   );
 };
