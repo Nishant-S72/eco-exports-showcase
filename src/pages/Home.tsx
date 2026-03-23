@@ -201,7 +201,7 @@ const Home = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
             {processSteps.map((step) => (
               <div key={step.step}>
-                <span className="text-4xl font-bold text-border">{step.step}</span>
+                <span className="text-4xl font-bold text-muted-foreground/60">{step.step}</span>
                 <h3 className="font-semibold mt-3 mb-2">{step.title}</h3>
                 <p className="text-sm text-muted-foreground leading-relaxed">{step.description}</p>
               </div>
