@@ -2,330 +2,160 @@ import { Link } from "react-router-dom";
 
 const Products = () => {
   return (
-    <div className="py-16">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h1 className="text-3xl font-bold mb-12">Products</h1>
-        <p className="text-muted-foreground leading-relaxed mb-12 max-w-4xl">
-          Formats listed represent standard export models. Custom molds and
-          private labeling support available for container-level buyers.
-        </p>
-
-        <section className="mb-16">
-          <h2 className="text-2xl font-bold mb-6 border-b border-border pb-3">
-            Areca Tableware
-          </h2>
-          <p className="text-muted-foreground leading-relaxed mb-6">
-            Naturally pressed, chemical-free leafware formats with structural
-            rigidity suitable for hot food applications.
+    <div>
+      {/* Hero */}
+      <section className="py-20 md:py-28 bg-section-alt">
+        <div className="max-w-7xl mx-auto px-6 lg:px-12">
+          <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground mb-3">Product Portfolio</p>
+          <h1 className="max-w-2xl mb-6">What We Source</h1>
+          <p className="text-lg text-muted-foreground max-w-2xl leading-relaxed">
+            From eco-friendly tableware to artisanal home decor — a curated
+            multi-category portfolio built for global distribution partners.
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="border border-border rounded p-5">
-              <h3 className="text-lg font-semibold mb-3">Round Plates</h3>
-              <ul className="list-disc pl-5 space-y-1 text-muted-foreground">
-                <li>6 inch</li>
-                <li>8 inch</li>
-                <li>10 inch</li>
-                <li>12 inch</li>
-              </ul>
-              <p className="text-muted-foreground mt-4">
-                Suitable for catering, institutional dining, and retail
-                distribution.
+        </div>
+      </section>
+
+      {/* Areca Tableware */}
+      <section className="py-20 md:py-24">
+        <div className="max-w-7xl mx-auto px-6 lg:px-12">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground mb-3">Natural & Compostable</p>
+              <h2 className="text-3xl font-bold mb-6">Areca Tableware</h2>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                Naturally pressed from fallen areca palm leaves — chemical-free,
+                compostable, and structurally durable for hot food applications.
+                Suitable for catering companies, eco-conscious retail brands,
+                and food service distributors.
+              </p>
+              <p className="text-muted-foreground leading-relaxed">
+                Available in round, square, and compartment formats with custom
+                mold capability for container-level buyers.
               </p>
             </div>
-
-            <div className="border border-border rounded p-5">
-              <h3 className="text-lg font-semibold mb-3">Square Plates</h3>
-              <ul className="list-disc pl-5 space-y-1 text-muted-foreground">
-                <li>8 inch square</li>
-                <li>10 inch square</li>
-              </ul>
-              <p className="text-muted-foreground mt-4">
-                Used in premium eco-conscious dining formats.
-              </p>
+            <div className="grid grid-cols-2 gap-4">
+              <img src="/assets/areca_plate_1.jpg" alt="Areca plate on wooden table" loading="lazy" className="w-full rounded-lg object-cover aspect-square" />
+              <img src="/assets/areca_plate_2.jpg" alt="Stacked areca plates" loading="lazy" className="w-full rounded-lg object-cover aspect-square" />
             </div>
+          </div>
+        </div>
+      </section>
 
-            <div className="border border-border rounded p-5">
-              <h3 className="text-lg font-semibold mb-3">Compartment Plates</h3>
-              <ul className="list-disc pl-5 space-y-1 text-muted-foreground">
-                <li>3 compartment</li>
-                <li>4 compartment</li>
-              </ul>
-              <p className="text-muted-foreground mt-4">
-                Designed for multi-item and thali-style food service.
-              </p>
+      {/* Bagasse Tableware */}
+      <section className="py-20 md:py-24 bg-section-alt">
+        <div className="max-w-7xl mx-auto px-6 lg:px-12">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div className="order-2 lg:order-1 grid grid-cols-2 gap-4">
+              <img src="/assets/bagasse_plate_1.jpg" alt="Bagasse plates" loading="lazy" className="w-full rounded-lg object-cover aspect-square" />
+              <img src="/assets/bagasse_plate_2.jpg" alt="Bagasse bowls" loading="lazy" className="w-full rounded-lg object-cover aspect-square" />
             </div>
-
-            <div className="border border-border rounded p-5">
-              <h3 className="text-lg font-semibold mb-3">Bowls &amp; Specialty</h3>
-              <ul className="list-disc pl-5 space-y-1 text-muted-foreground">
-                <li>120 ml bowl</li>
-                <li>180 ml bowl</li>
-                <li>250 ml bowl</li>
-                <li>Oval platter</li>
-              </ul>
-              <p className="text-muted-foreground mt-4">
-                Suitable for hot and cold applications.
+            <div className="order-1 lg:order-2">
+              <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground mb-3">Industrial Compostable</p>
+              <h2 className="text-3xl font-bold mb-6">Bagasse Tableware</h2>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                Sugarcane fiber-based plates, bowls, clamshell containers, and
+                meal trays designed for institutional food service operations.
+                Compatible with hot and cold applications.
+              </p>
+              <p className="text-muted-foreground leading-relaxed">
+                Suitable for institutional and wholesale buyers seeking a
+                reliable, scalable alternative to plastic disposables.
               </p>
             </div>
           </div>
-        </section>
+        </div>
+      </section>
 
-        <section className="mb-16">
-          <h2 className="text-2xl font-bold mb-6 border-b border-border pb-3">
-            Bagasse Tableware
-          </h2>
-          <p className="text-muted-foreground leading-relaxed mb-6">
-            Molded fiber formats designed for institutional food service
-            operations, compatible with hot and cold applications.
-          </p>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="border border-border rounded p-5">
-              <h3 className="text-lg font-semibold mb-3">Plates</h3>
-              <ul className="list-disc pl-5 space-y-1 text-muted-foreground">
-                <li>6 inch</li>
-                <li>8 inch</li>
-                <li>9 inch</li>
-                <li>10 inch</li>
-                <li>12 inch</li>
-              </ul>
+      {/* Spices */}
+      <section className="py-20 md:py-24">
+        <div className="max-w-7xl mx-auto px-6 lg:px-12">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground mb-3">Export-Grade Quality</p>
+              <h2 className="text-3xl font-bold mb-6">Premium Spices</h2>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                Whole and ground spices sourced through vetted Indian processing
+                units. Our spice portfolio includes pepper, chilli, coriander,
+                cumin, turmeric, cardamom, cloves, cinnamon, and custom blends.
+              </p>
+              <p className="text-muted-foreground leading-relaxed">
+                Quality parameters including moisture levels, cleaning standards,
+                and destination compliance are aligned per buyer requirements.
+              </p>
             </div>
-
-            <div className="border border-border rounded p-5">
-              <h3 className="text-lg font-semibold mb-3">Bowls</h3>
-              <ul className="list-disc pl-5 space-y-1 text-muted-foreground">
-                <li>250 ml</li>
-                <li>350 ml</li>
-                <li>500 ml</li>
-              </ul>
-            </div>
-
-            <div className="border border-border rounded p-5">
-              <h3 className="text-lg font-semibold mb-3">Clamshell Containers</h3>
-              <ul className="list-disc pl-5 space-y-1 text-muted-foreground">
-                <li>6x6</li>
-                <li>8x8</li>
-                <li>9x9</li>
-                <li>3 compartment clamshell</li>
-              </ul>
-            </div>
-
-            <div className="border border-border rounded p-5">
-              <h3 className="text-lg font-semibold mb-3">Meal Trays</h3>
-              <ul className="list-disc pl-5 space-y-1 text-muted-foreground">
-                <li>3 compartment</li>
-                <li>5 compartment</li>
-              </ul>
+            <div>
+              <img src="/assets/spices_flatlay.jpg" alt="Premium Indian spices" loading="lazy" className="w-full rounded-lg object-cover aspect-square" />
             </div>
           </div>
-          <p className="text-muted-foreground leading-relaxed mt-6">
-            Available in standard export formats suitable for high-volume food
-            service operations.
-          </p>
-        </section>
+        </div>
+      </section>
 
-        <section className="mb-16">
-          <h2 className="text-2xl font-bold mb-6 border-b border-border pb-3">
-            Bulk Spices - Whole &amp; Powdered
-          </h2>
-          <p className="text-muted-foreground leading-relaxed mb-6">
-            Export-oriented supply of whole and ground spices sourced through
-            vetted processing units with quality inspection and documentation
-            support.
-          </p>
-          <p className="text-muted-foreground leading-relaxed mb-6">
-            Quality parameters such as moisture levels, cleaning standards, and
-            destination compliance are aligned as per buyer requirement.
-          </p>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div className="border border-border rounded p-5">
-              <h3 className="text-lg font-semibold mb-3">Pepper</h3>
-              <ul className="list-disc pl-5 space-y-2 text-muted-foreground">
-                <li>Black pepper - whole</li>
-                <li>Black pepper - crushed or ground</li>
-              </ul>
+      {/* Home Textiles */}
+      <section className="py-20 md:py-24 bg-section-alt">
+        <div className="max-w-7xl mx-auto px-6 lg:px-12">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div className="order-2 lg:order-1 grid grid-cols-2 gap-4">
+              <img src="/assets/cushion_covers.jpg" alt="Boho cushion covers" loading="lazy" className="w-full rounded-lg object-cover aspect-square" />
+              <img src="/assets/table_runner.jpg" alt="Handwoven table runner" loading="lazy" className="w-full rounded-lg object-cover aspect-square" />
             </div>
-
-            <div className="border border-border rounded p-5">
-              <h3 className="text-lg font-semibold mb-3">Chilli</h3>
-              <ul className="list-disc pl-5 space-y-2 text-muted-foreground">
-                <li>Dried red chillies - whole</li>
-                <li>Chilli powder</li>
-                <li>Crushed chilli</li>
-              </ul>
-            </div>
-
-            <div className="border border-border rounded p-5">
-              <h3 className="text-lg font-semibold mb-3">Coriander</h3>
-              <ul className="list-disc pl-5 space-y-2 text-muted-foreground">
-                <li>Coriander seeds - whole</li>
-                <li>Coriander powder</li>
-              </ul>
-            </div>
-
-            <div className="border border-border rounded p-5">
-              <h3 className="text-lg font-semibold mb-3">Cumin</h3>
-              <ul className="list-disc pl-5 space-y-2 text-muted-foreground">
-                <li>Cumin seeds - whole</li>
-                <li>Cumin powder</li>
-              </ul>
-            </div>
-
-            <div className="border border-border rounded p-5">
-              <h3 className="text-lg font-semibold mb-3">Fennel</h3>
-              <ul className="list-disc pl-5 space-y-2 text-muted-foreground">
-                <li>Fennel seeds - whole</li>
-                <li>Fennel powder</li>
-              </ul>
-            </div>
-
-            <div className="border border-border rounded p-5">
-              <h3 className="text-lg font-semibold mb-3">Turmeric</h3>
-              <ul className="list-disc pl-5 space-y-2 text-muted-foreground">
-                <li>Turmeric fingers - whole</li>
-                <li>Turmeric powder</li>
-              </ul>
-            </div>
-
-            <div className="border border-border rounded p-5">
-              <h3 className="text-lg font-semibold mb-3">Cardamom</h3>
-              <ul className="list-disc pl-5 space-y-2 text-muted-foreground">
-                <li>Small cardamom - whole</li>
-                <li>Cardamom powder</li>
-              </ul>
-            </div>
-
-            <div className="border border-border rounded p-5">
-              <h3 className="text-lg font-semibold mb-3">Cloves</h3>
-              <ul className="list-disc pl-5 space-y-2 text-muted-foreground">
-                <li>Cloves - whole</li>
-                <li>Cloves - ground</li>
-              </ul>
-            </div>
-
-            <div className="border border-border rounded p-5">
-              <h3 className="text-lg font-semibold mb-3">Cinnamon / Cassia</h3>
-              <ul className="list-disc pl-5 space-y-2 text-muted-foreground">
-                <li>Cinnamon - whole</li>
-                <li>Cinnamon - ground</li>
-                <li>Cassia - whole</li>
-              </ul>
-            </div>
-
-            <div className="border border-border rounded p-5 lg:col-span-3">
-              <h3 className="text-lg font-semibold mb-3">Mixed Spice Blends</h3>
-              <ul className="list-disc pl-5 space-y-2 text-muted-foreground">
-                <li>Garam masala</li>
-                <li>Curry powder</li>
-                <li>Custom spice blends</li>
-              </ul>
+            <div className="order-1 lg:order-2">
+              <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground mb-3">Design-Led Sourcing</p>
+              <h2 className="text-3xl font-bold mb-6">Home Textiles</h2>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                Handwoven and handcrafted cushion covers, table runners, and
+                soft furnishings in neutral, boho, and contemporary palettes.
+                Designed for modern retail and wholesale distribution.
+              </p>
+              <p className="text-muted-foreground leading-relaxed">
+                Custom design development and private labeling available for
+                growing home decor brands.
+              </p>
             </div>
           </div>
-          <p className="text-muted-foreground leading-relaxed mt-6">
-            Bulk packaging formats, quality specifications, and test
-            documentation can be shared upon request based on destination market
-            requirements.
-          </p>
-        </section>
+        </div>
+      </section>
 
-        <section className="mt-16">
-          <h2 className="text-2xl font-bold mb-4">Packaging &amp; Commercial Formats</h2>
-          <p className="text-muted-foreground leading-relaxed mb-6 max-w-4xl">
-            Packaging formats are structured to support bulk export handling,
-            distributor requirements, and private label programs.
-          </p>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="border border-border rounded p-5">
-              <h3 className="text-lg font-semibold mb-3">
-                Areca &amp; Bagasse Packaging Options
-              </h3>
-              <ul className="list-disc pl-5 space-y-2 text-muted-foreground">
-                <li>Bulk loose packing for container-level distribution</li>
-                <li>Shrink-wrapped sleeves for institutional buyers</li>
-                <li>Standardized sleeve packs with barcode integration</li>
-                <li>Private label printing and branding support</li>
-                <li>Master carton packing for export handling</li>
-                <li>Palletized dispatch coordination (if required)</li>
-              </ul>
+      {/* Handicrafts */}
+      <section className="py-20 md:py-24">
+        <div className="max-w-7xl mx-auto px-6 lg:px-12">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground mb-3">Artisanal & Modern</p>
+              <h2 className="text-3xl font-bold mb-6">Handicrafts & Decor</h2>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                Metal wall decor, wooden serving trays, and candle holders
+                crafted for modern interiors. Each piece blends traditional
+                Indian craftsmanship with contemporary design sensibilities.
+              </p>
+              <p className="text-muted-foreground leading-relaxed">
+                Ideal for home decor retailers, hospitality projects, and
+                wholesale distributors looking for unique, handcrafted products.
+              </p>
             </div>
-
-            <div className="border border-border rounded p-5">
-              <h3 className="text-lg font-semibold mb-3">
-                Bulk Spice Packaging Options
-              </h3>
-              <ul className="list-disc pl-5 space-y-2 text-muted-foreground">
-                <li>PP woven bags for bulk export</li>
-                <li>Multi-layer paper bags with inner lining</li>
-                <li>Carton-packed inner poly packaging</li>
-                <li>Custom labeling support for importers</li>
-                <li>Private label blending and packing (where applicable)</li>
-              </ul>
+            <div className="grid grid-cols-2 gap-4">
+              <img src="/assets/handicrafts_decor.jpg" alt="Metal wall decor and wooden tray" loading="lazy" className="w-full rounded-lg object-cover aspect-square" />
+              <img src="/assets/wooden_tray_candles.jpg" alt="Wooden tray with candle holders" loading="lazy" className="w-full rounded-lg object-cover aspect-square" />
             </div>
           </div>
+        </div>
+      </section>
 
-          <p className="text-muted-foreground leading-relaxed mt-6">
-            Final packaging configuration is aligned with buyer specifications
-            and destination market requirements.
+      {/* CTA */}
+      <section className="bg-section-alt py-20">
+        <div className="max-w-7xl mx-auto px-6 lg:px-12 text-center">
+          <h2 className="text-3xl font-bold mb-4">Discuss Your Requirement</h2>
+          <p className="text-muted-foreground mb-8 max-w-lg mx-auto leading-relaxed">
+            Share your product format, volume expectation, and destination
+            details. We respond with structured supply alignment.
           </p>
-        </section>
-
-        <section className="mt-16">
-          <h2 className="text-2xl font-bold mb-4">Typical Engagement Structure</h2>
-          <ul className="list-disc pl-5 space-y-2 text-muted-foreground">
-            <li>Full container load supply model</li>
-            <li>Lead times defined at order confirmation</li>
-            <li>Pre-shipment inspection supported</li>
-            <li>Documentation issued prior to vessel departure</li>
-            <li>Private label coordination available where applicable</li>
-          </ul>
-        </section>
-
-        <section className="mt-16">
-          <div className="border border-border rounded p-6 bg-section-alt">
-            <h2 className="text-xl font-bold mb-3">Certification &amp; Documentation</h2>
-            <p className="text-muted-foreground leading-relaxed">
-              Detailed specifications, packaging formats, and certification
-              documentation are available upon request based on buyer
-              requirements.
-            </p>
-            <p className="text-muted-foreground leading-relaxed mt-4">
-              Documentation and packaging configurations are aligned based on
-              destination market regulatory requirements.
-            </p>
-          </div>
-        </section>
-
-        <section className="mt-16">
-          <h2 className="text-2xl font-bold mb-4">Typical Applications</h2>
-          <p className="text-muted-foreground leading-relaxed mb-4">
-            Formats are commonly supplied to the following commercial segments:
-          </p>
-          <ul className="list-disc pl-5 space-y-2 text-muted-foreground">
-            <li>Food service distributors</li>
-            <li>Catering and horeca suppliers</li>
-            <li>Import and wholesale distribution channels</li>
-            <li>Institutional procurement programs</li>
-            <li>Private label packaging partners</li>
-          </ul>
-        </section>
-
-        <section className="mt-16">
-          <div className="border border-border rounded p-6 bg-section-alt">
-            <h2 className="text-2xl font-bold mb-3">Discuss Your Requirement</h2>
-            <p className="text-muted-foreground leading-relaxed mb-5 max-w-4xl">
-              Share your product format, volume expectation, and destination
-              details. We respond with structured supply alignment and
-              documentation clarity.
-            </p>
-            <Link
-              to="/contact"
-              className="inline-block bg-primary text-primary-foreground px-8 py-3 text-sm font-semibold rounded hover:opacity-90"
-            >
-              Request Commercial Discussion
-            </Link>
-          </div>
-        </section>
-      </div>
+          <Link
+            to="/contact"
+            className="inline-flex items-center justify-center bg-primary text-primary-foreground px-8 py-3.5 text-sm font-semibold rounded-lg hover:bg-primary/90 transition-colors"
+          >
+            Request Commercial Discussion
+          </Link>
+        </div>
+      </section>
     </div>
   );
 };

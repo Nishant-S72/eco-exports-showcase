@@ -14,30 +14,29 @@ const Header = () => {
   const location = useLocation();
 
   return (
-    <header className="border-b border-border bg-background sticky top-0 z-50">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between min-h-16 py-2">
-          <Link to="/" className="flex items-center gap-3">
+    <header className="bg-background/95 backdrop-blur-sm sticky top-0 z-50 border-b border-border">
+      <div className="max-w-7xl mx-auto px-6 lg:px-12">
+        <div className="flex items-center justify-between h-20">
+          <Link to="/" className="flex items-center gap-4">
             <img
               src="/assets/logo.png"
-              alt="Company Logo"
-              className="h-14 w-auto"
+              alt="Inmount Global"
+              className="h-12 w-auto"
             />
-            <div className="block text-[10px] sm:text-xs leading-tight text-muted-foreground">
+            <div className="hidden sm:block text-[10px] leading-tight text-muted-foreground tracking-wide uppercase">
               <p>MSME: UDYAM-DL-04-0045434</p>
-              <p>GST: 07AAHCI6249P1ZV</p>
               <p>IEC: AAHCI6249P</p>
             </div>
           </Link>
 
-          <nav className="hidden md:flex items-center gap-8">
+          <nav className="hidden md:flex items-center gap-10">
             {navItems.map((item) => (
               <Link
                 key={item.path}
                 to={item.path}
-                className={`text-sm font-medium transition-colors hover:text-primary ${
+                className={`text-sm tracking-wide transition-colors hover:text-foreground ${
                   location.pathname === item.path
-                    ? "text-primary"
+                    ? "text-foreground font-semibold"
                     : "text-muted-foreground"
                 }`}
               >
@@ -51,20 +50,20 @@ const Header = () => {
             onClick={() => setMobileOpen(!mobileOpen)}
             aria-label="Toggle menu"
           >
-            {mobileOpen ? <X size={20} /> : <Menu size={20} />}
+            {mobileOpen ? <X size={22} /> : <Menu size={22} />}
           </button>
         </div>
 
         {mobileOpen && (
-          <nav className="md:hidden pb-4 border-t border-border pt-4 flex flex-col gap-3">
+          <nav className="md:hidden pb-6 pt-4 border-t border-border flex flex-col gap-4">
             {navItems.map((item) => (
               <Link
                 key={item.path}
                 to={item.path}
                 onClick={() => setMobileOpen(false)}
-                className={`text-sm font-medium px-2 py-1 ${
+                className={`text-sm tracking-wide px-2 py-1 ${
                   location.pathname === item.path
-                    ? "text-primary"
+                    ? "text-foreground font-semibold"
                     : "text-muted-foreground"
                 }`}
               >
